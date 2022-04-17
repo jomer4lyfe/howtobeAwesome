@@ -1,0 +1,39 @@
+p{
+  font-family: papyrus;
+}
+.myphoto {
+  background-image: url(../assets/img/IMG_0489.JPG);
+}
+.aboutMenu {
+position: relative;
+}
+.aboutMenu-content {
+display: none;
+position: absolute;
+width: 100%;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.aboutMenu:hover .aboutMenu-content {
+  display: block;
+  }
+  .aboutMenu-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .aboutMenu-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .sway {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+  }
+  row {
+    width: auto;
+    font-size: small;
+  }
